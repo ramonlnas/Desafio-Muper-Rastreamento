@@ -23,8 +23,7 @@ if (!$rawData) {
 }
 
 $controller = new LogController();
-
-$result = $controller->parseLogAsArray($rawData);
+$result = $controller->parseLogGrouped($rawData);
 
 echo json_encode($result, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
 exit;

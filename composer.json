@@ -1,0 +1,14 @@
+{
+    "name": "muper/desafio-rastreamento",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+      "psr-4": {
+        "App\\": "src/"
+      }
+    },
+    "require": {
+      "php": "^7.4 || ^8.0"
+    }
+  }
+  
